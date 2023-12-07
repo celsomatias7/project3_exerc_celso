@@ -1,0 +1,60 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #00BFFF;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color:#00BFFF;
+}
+
+#cabecalho .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-destinos .nav-link.active:hover { /*tirando o efeito do hover sobre o h1*/
+    color: #fff;
+}
+
+.section-title {
+    font-family: dancing script, cursive;
+}
+
+.navbar-toggler {
+    background-color: #DCDCDC;
+}
+
+.text-colored {
+    color: #00BFFF;
+}
+
+#sobre-a-agencia, #destinos {
+    background-color: #DCDCDC;
+}
+
+.nav-destinos .nav-link.active,
+#fale-conosco button {
+    background-color: #00BFFF;
+    color: #fff;
+}
+
+.nav-destinos .nav-link:hover {
+    color: #00BFFF;
+}
+
+.social-links li { /* para tirar o bullet do li e colocar os ícones um ao lado do outro */
+    list-style: none;
+    display: inline;
+}
+
+.social-links a { /*para tirar o underline do link */
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
